@@ -9,11 +9,11 @@ public class Shirt extends Product {
     public Shirt() {
     }
 
-    public Shirt(Shirt shorts){
-        super(shorts);
-        if (shorts != null){
-            this.size = shorts.size;
-            this.color = shorts.color;
+    public Shirt(Shirt shirt){
+        super(shirt);
+        if (shirt != null){
+            this.size = shirt.size;
+            this.color = shirt.color;
         }
     }
 
